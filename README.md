@@ -3,4 +3,5 @@ TicketBooking
 
 CSC 354 Assignment
 _____________________________
-New application
+New application for online Ticket Booking in PHP.
+
