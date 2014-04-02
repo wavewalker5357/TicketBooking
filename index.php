@@ -1,3 +1,4 @@
+<?php include_once('autoload.php'); ?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
