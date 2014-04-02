@@ -1,5 +1,23 @@
 {
-    "require": {
+	"name": "vlnas/ticketbooking",
+	"description": "Ticket booking system",
+	"keywords": ["booking"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Patrik Vlnas",
+			"email": "p.vlnas@email.cz"
+		}
+	],
+	"require": {
         "monolog/monolog": "1.0.*"
-    }
+    },
+	"autoload": {
+		"classmap": [
+			"controllers",
+			"models",
+			"presenters",
+			"repositories"
+		]
+	}
 }

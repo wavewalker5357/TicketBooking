@@ -6,4 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Controllers\\FormFacade' => $baseDir . '/controllers/FormFacade.php',
+    'Models\\Input' => $baseDir . '/models/Input.php',
+    'Repositories\\DBTicketRepository' => $baseDir . '/repositories/DBTicketRepository.php',
+    'Repositories\\TicketRepositoryInterface' => $baseDir . '/repositories/TicketRepositoryInterface.php',
 );
